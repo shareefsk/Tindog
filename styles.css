@@ -1,0 +1,142 @@
+body{
+
+  font-weight: lighter;
+}
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+.head{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   line-height: 1.5
+
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0  4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+  font-weight: bold;
+}
+ /* title image */
+ .title-image{
+   width:60%;
+   transform: rotate(25deg);
+   position: absolute;
+
+  right: 25%;
+
+ }
+
+ /* features */
+#features{
+  padding:8% 15% 4%;
+  line-height: 1.5;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+.feature-head{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.feature-discription{
+  padding:0 3rem 3rem 3rem;
+  color: #8f8f8f;
+}
+.feature-icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color:#ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+
+  background-color: #ff4c68;
+  text-align: center;
+}
+.testimonial-image{
+  width:80px;
+  border-radius: 100%;
+  margin:5px 5px 5px 5px;
+
+}
+.testimonial-text{
+  color:#fff;
+  font-family: 'Montserrat-lighter', sans-serif;
+  font-size: 3rem;
+
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+#press{
+  background-color: #ff4c68;
+  padding:3% 5%;
+  text-align: center;
+
+}
+.press-logo{
+  width:15%;
+  margin:0 3%;
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  padding:100px;
+}
+.pricing-coloumn{
+  padding:2% 3%;
+}
+@media (max-width:1100px)  {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    padding-top: 5%;
+    position:static;
+    transform: rotate(0);
+  }
+}
+ /* cta */
+ #cta{
+   padding:7% 15%;
+   text-align: center;
+   background-color: #ff4c68;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+
+ }
+/* .cta-header{
+  padding-bottom: 5%;
+} */
+.cta-btn{
+  margin:2%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  margin: 4%;
+}
+.footer-img{
+  margin:1%;
+}
+.footer-text{
+  font-size: 1.1rem;
+}
